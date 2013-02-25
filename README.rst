@@ -5,7 +5,8 @@
 reStructuredTextから技術評論社のinaoフォーマットに変換するスクリプトです。
 
 実装には ``rst2textile`` を参考にさせて頂きました。
-というよりまずまるごとコピーしてから必要なところを書き換えました。
+というよりまずまるごとコピーして必要なところを書き換えました。
+なお ``rst2textile`` はApache Software Licenseです。
 
 締め切りに追われながらやっつけで作ったので完成度はかなり低いです。
 テストは動きません(そもそもどういう出力が正しいのかをイマイチ把握していません)
@@ -32,13 +33,13 @@ reStructuredTextから技術評論社のinaoフォーマットに変換するス
 2. ordered list
 #. ordered list
 
-.. image:: http://b.hatena.ne.jp/entry/image/https://github.com/nishio/rst2inao
-           
 既知の未実装
 ============
 
 - 段落の頭は字下げが必要らしい？
 - 入れ子になったリストはinaoでどう出力するべきかわからなかったのでサポートしていません
+- inaoフォーマットは図にキャプションを要求しますが、reSTのimageは要求しないのでfigureを使うべきなんだろうけども原稿はimageで書いてしまったのでサポートしていません
+
 
 参考文献
 =========
