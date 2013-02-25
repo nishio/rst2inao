@@ -23,18 +23,17 @@ reStructuredTextから技術評論社のinaoフォーマットに変換するス
    source code
    source code
 
-- unordered list
-- unordered list
-- unordered list
+- unordered list(これ)
+- *em* 斜体
+- **strong** 太字
+- ``literal`` 文中等幅フォント
 
 1. ordered list
 2. ordered list
 #. ordered list
 
-- *em* 斜体
-- **strong** 太字
-- ``literal`` 文中等幅フォント
-
+.. image:: http://b.hatena.ne.jp/entry/image/https://github.com/nishio/rst2inao
+           
 既知の未実装
 ============
 
